@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merwin J</title>
+  <title>Merwin J — Full Stack Developer & DevSecOps</title>
   <meta name="description" content="Merwin J — Python Full Stack Developer, DevSecOps Enthusiast, and Post-Quantum Crypto Explorer from Puducherry, India.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
   <!-- Custom Cursor -->
-  <div id="cursor"><div id="cursor-dot"></div></div>
+  <div id="cursor"></div>
   <div id="cursor-ring"></div>
 
   <!-- Scroll Progress -->
@@ -22,62 +22,51 @@
   <!-- Noise Overlay -->
   <div class="noise-overlay"></div>
 
-  <!-- Theme Toggle -->
-  <button id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark mode">
-    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-    <span id="theme-label">dark</span>
-  </button>
-
-  <!-- Desktop Navigation -->
+  <!-- ========== APPLE GLASS NAV ========== -->
   <nav id="main-nav">
-    <a href="#hero" class="nav-logo" data-scroll>MJ</a>
-    <a href="#hero" class="nav-link active" data-scroll>
-      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-      <span class="nav-tooltip">Home</span>
-    </a>
-    <a href="#about" class="nav-link" data-scroll>
-      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
-      <span class="nav-tooltip">About</span>
-    </a>
-    <a href="#experience" class="nav-link" data-scroll>
-      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
-      <span class="nav-tooltip">Experience</span>
-    </a>
-    <a href="#projects" class="nav-link" data-scroll>
-      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-      <span class="nav-tooltip">Projects</span>
-    </a>
-    <a href="#achievements" class="nav-link" data-scroll>
-      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
-      <span class="nav-tooltip">Awards</span>
-    </a>
-    <a href="#education" class="nav-link" data-scroll>
-      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-      <span class="nav-tooltip">Education</span>
-    </a>
-    <a href="#contact" class="nav-link" data-scroll>
-      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></svg>
-      <span class="nav-tooltip">Contact</span>
-    </a>
-    <div class="nav-bottom">
-      <a href="https://github.com/MerrilyToWin" target="_blank" class="nav-social" aria-label="GitHub">
-        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" data-scroll>
+        <span class="brand-dot"></span>MJ
       </a>
-      <a href="https://www.linkedin.com/in/merwin-j/" target="_blank" class="nav-social" aria-label="LinkedIn">
-        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-      </a>
+      <div class="nav-links" id="navMenu">
+        <a href="#about"        class="nav-link" data-scroll>About</a>
+        <a href="#experience"   class="nav-link" data-scroll>Experience</a>
+        <a href="#projects"     class="nav-link" data-scroll>Projects</a>
+        <a href="#achievements" class="nav-link" data-scroll>Awards</a>
+        <a href="#education"    class="nav-link" data-scroll>Education</a>
+        <a href="#contact"      class="nav-link" data-scroll>Contact</a>
+      </div>
+      <div class="nav-right">
+        <div class="nav-socials">
+          <a href="https://github.com/MerrilyToWin" target="_blank" class="nav-social-icon" aria-label="GitHub">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.79-.26.79-.58v-2.23c-3.34.73-4.03-1.42-4.03-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.05.14 3 .4 2.28-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.19.69.8.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/merwin-j/" target="_blank" class="nav-social-icon" aria-label="LinkedIn">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.77C14.4 7.41 20 7.22 20 12.48V19z"/></svg>
+          </a>
+        </div>
+        <a href="assets/CV_Merwin_J.pdf" class="btn-resume" target="_blank">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>
+          Resume
+        </a>
+        <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </nav>
 
-  <!-- Mobile Nav -->
-  <div id="mobile-nav">
-    <a href="#hero" data-scroll>🏠</a>
-    <a href="#about" data-scroll>👤</a>
-    <a href="#experience" data-scroll>💼</a>
-    <a href="#projects" data-scroll>🖥️</a>
-    <a href="#achievements" data-scroll>🏆</a>
-    <a href="#contact" data-scroll>✉️</a>
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <a href="#about"        class="mobile-link" data-scroll>About</a>
+      <a href="#experience"   class="mobile-link" data-scroll>Experience</a>
+      <a href="#projects"     class="mobile-link" data-scroll>Projects</a>
+      <a href="#achievements" class="mobile-link" data-scroll>Awards</a>
+      <a href="#education"    class="mobile-link" data-scroll>Education</a>
+      <a href="#contact"      class="mobile-link" data-scroll>Contact</a>
+      <a href="assets/CV_Merwin_J.pdf" class="mobile-resume" target="_blank">Download Resume</a>
+    </div>
   </div>
 
   <!-- Back to Top -->
@@ -87,225 +76,985 @@
 
   <main>
 
-    <!-- ==================== HERO ==================== -->
+    <!-- ====================================================
+         HERO
+         ==================================================== -->
     <section id="hero">
-      <!-- True parallax: image moves slower than scroll -->
-      <div class="hero-img-wrap" id="heroImgWrap">
-        <img src="assets/img/hero.jpeg" alt="Merwin J" class="hero-img" id="heroImg" onerror="this.parentElement.style.background='linear-gradient(135deg,#0d0d1a 0%,#1a0a2e 50%,#0a1628 100%)'">
+      <div class="hero-bg">
+        <div class="hero-img-wrap" id="heroImgWrap">
+          <img src="assets/img/hero.jpeg" alt="Merwin J" class="hero-img" id="heroImg"
+               onerror="this.parentElement.style.background='linear-gradient(135deg,#080811 0%,#0f0f2e 50%,#080820 100%)'">
+        </div>
+        <div class="hero-overlay"></div>
+        <canvas id="heroCanvas" class="hero-canvas"></canvas>
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
       </div>
 
-      <!-- Gradient mask over photo -->
-      <div class="hero-overlay"></div>
-
-      <!-- Animated grid mesh -->
-      <canvas id="heroCanvas" class="hero-canvas"></canvas>
-
-      <!-- Floating orbs -->
-      <div class="hero-orb orb-1" data-parallax="0.04"></div>
-      <div class="hero-orb orb-2" data-parallax="0.07"></div>
-      <div class="hero-orb orb-3" data-parallax="0.02"></div>
-
-      <!-- Content -->
       <div class="hero-inner" id="heroContent">
-        <div class="hero-content">
-          <h1 class="hero-name reveal-up" style="animation-delay:.25s">
-            <span class="hero-name-line" data-parallax="0.015">Merwin</span>
-            <span class="hero-name-line accent" data-parallax="0.025">J</span>
-          </h1>
-          <div class="hero-roles reveal-up" style="animation-delay:.4s">
-            <span id="typed-text"></span><span class="typed-cursor">|</span>
+        <div class="hero-badge reveal-up">
+          <span class="pulse-dot"></span>
+          Available for Opportunities
+        </div>
+
+        <h1 class="hero-name reveal-up" style="animation-delay:.15s">
+          <span class="name-line">Merwin</span>
+          <span class="name-line gradient-text">J</span>
+        </h1>
+
+        <div class="hero-typed reveal-up" style="animation-delay:.3s">
+          <span id="typed-text"></span><span class="typed-cursor">|</span>
+        </div>
+
+        <p class="hero-desc reveal-up" style="animation-delay:.45s">
+          Building <strong>secure digital futures</strong> at the intersection of full-stack development,
+          DevSecOps, and post-quantum cryptography. Based in Puducherry, India.
+        </p>
+
+        <div class="hero-actions reveal-up" style="animation-delay:.6s">
+          <a href="#contact" class="btn-primary" data-scroll>
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            Hire Me
+          </a>
+          <a href="assets/CV_Merwin_J.pdf" class="btn-glass" target="_blank">
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            Resume
+          </a>
+          <a href="https://merrilytowin.github.io/arise/" target="_blank" class="btn-outline">
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            Team ARISE
+          </a>
+        </div>
+
+        <div class="hero-stats reveal-up" style="animation-delay:.75s">
+          <div class="stat-item">
+            <div class="stat-num" data-count="25">0</div>
+            <div class="stat-label">Projects</div>
           </div>
-          <p class="hero-desc reveal-up" style="animation-delay:.55s">
-            Building <strong>secure digital futures</strong> at the intersection of full-stack development, DevSecOps, and post-quantum cryptography. Based in Puducherry, India.
-          </p>
-          <div class="hero-actions reveal-up" style="animation-delay:.7s">
-            <a href="#contact" class="btn-primary" data-scroll>
-              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-              Hire Me
-            </a>
-            <a href="assets/CV_Merwin_J.pdf" class="btn-secondary" target="_blank">
-              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-              Resume
-            </a>
-            <a href="https://merrilytowin.github.io/arise/" target="_blank" class="btn-arise">
-              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-              Team ARISE
-            </a>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num" data-count="15">0</div>
+            <div class="stat-label">Clients</div>
           </div>
-          <div class="hero-stats reveal-up" style="animation-delay:.85s">
-            <div class="hero-stat">
-              <div class="hero-stat-num" data-count="25">0</div>
-              <div class="hero-stat-label">// projects</div>
-            </div>
-            <div class="hero-stat">
-              <div class="hero-stat-num" data-count="15">0</div>
-              <div class="hero-stat-label">// clients</div>
-            </div>
-            <div class="hero-stat">
-              <div class="hero-stat-num" data-val="8.13">0</div>
-              <div class="hero-stat-label">// cgpa</div>
-            </div>
-            <div class="hero-stat">
-              <div class="hero-stat-num" data-count="5">0</div>
-              <div class="hero-stat-label">// internships</div>
-            </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num" data-val="8.13">0</div>
+            <div class="stat-label">CGPA</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num" data-count="5">0</div>
+            <div class="stat-label">Internships</div>
           </div>
         </div>
       </div>
 
-      <div class="hero-scroll-hint">
+      <div class="scroll-hint">
         <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
-        <span>scroll</span>
+        <span>Scroll</span>
       </div>
     </section>
 
-    <!-- ==================== ABOUT ==================== -->
+    <!-- ====================================================
+         ABOUT
+         ==================================================== -->
     <section id="about" class="section-reveal">
       <div class="section-header">
-        <div class="section-tag">01 // Who I Am</div>
-        <h2 class="section-title">About <span class="dim">Me</span></h2>
+        <div class="section-tag">
+          <span class="tag-line"></span>
+          <span class="mono">01</span> Who I Am
+        </div>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
       </div>
+
       <div class="about-grid">
         <div class="about-left">
           <p class="about-body">I'm a <strong>Python Full Stack Developer</strong> and <strong>DevSecOps enthusiast</strong> currently in my pre-final year of B.Tech IT at MVIT, Puducherry. I thrive on building things that are both functional and secure.</p>
           <p class="about-body">My work spans from building <strong>MITM proxy servers</strong> and <strong>automated cloud infrastructure</strong> to designing sleek web interfaces. I'm deeply fascinated by <strong>Post-Quantum Cryptography</strong> and the future of secure communications.</p>
           <p class="about-body">Beyond code, I've published <strong>research papers</strong>, won multiple <strong>national competitions</strong> with Team ARISE, and love reading books, watching anime, and solving Rubik's cubes.</p>
-          <div class="about-info">
-            <div class="info-item"><div class="info-label">Location</div><div class="info-value">Puducherry, India 🇮🇳</div></div>
-            <div class="info-item"><div class="info-label">Email</div><div class="info-value"><a href="mailto:merwinofficial24@gmail.com">merwinofficial24@gmail.com</a></div></div>
-            <div class="info-item"><div class="info-label">Collabration &amp; Freelancing</div><div class="info-value available">● Available</div></div>
-            <div class="info-item"><div class="info-label">Languages</div><div class="info-value">English, Tamil, Hindi</div></div>
-            <div class="info-item"><div class="info-label">Degree</div><div class="info-value">B.Tech IT (2022–2026)</div></div>
-            <div class="info-item"><div class="info-label">Hobbies</div><div class="info-value">Books, Anime, Rubik's Cube</div></div>
+
+          <div class="about-info-grid">
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Location</div>
+                <div class="info-value">Puducherry, India</div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Email</div>
+                <div class="info-value"><a href="mailto:merwinofficial24@gmail.com">merwinofficial24@gmail.com</a></div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon available-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Status</div>
+                <div class="info-value available">Available for Work</div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Degree</div>
+                <div class="info-value">B.Tech IT · 2022–2026</div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 8l6 6M4 14l6-6 2-3M2 5h12M7 2h1M17 9l4.286 4.286M14 11l4 4M9 20l9-9M17 17l2 2M19 15l2 2"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Languages</div>
+                <div class="info-value">English, Tamil, Hindi</div>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              </div>
+              <div>
+                <div class="info-label">Hobbies</div>
+                <div class="info-value">Books · Anime · Rubik's Cube</div>
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="about-right">
-          <div class="skills-container">
-            <div class="skill-category"><div class="skill-cat-label">Languages &amp; Scripting</div><div class="skill-tags"><span class="skill-tag featured">Python</span><span class="skill-tag featured">Bash Scripting</span><span class="skill-tag">JavaScript</span><span class="skill-tag">HTML / CSS</span></div></div>
-            <div class="skill-category"><div class="skill-cat-label">Web &amp; Frameworks</div><div class="skill-tags"><span class="skill-tag featured">Django</span><span class="skill-tag featured">REST API</span><span class="skill-tag">PyQt5</span><span class="skill-tag">React</span><span class="skill-tag">Bootstrap</span></div></div>
-            <div class="skill-category"><div class="skill-cat-label">DevOps &amp; Cloud</div><div class="skill-tags"><span class="skill-tag featured">Google Cloud Platform</span><span class="skill-tag featured">Docker</span><span class="skill-tag featured">Ansible</span><span class="skill-tag">GitHub Actions</span></div></div>
-            <div class="skill-category"><div class="skill-cat-label">Security &amp; Networking</div><div class="skill-tags"><span class="skill-tag featured">Wireshark</span><span class="skill-tag featured">MITMProxy</span><span class="skill-tag">Netmiko</span><span class="skill-tag">Post-Quantum Crypto</span><span class="skill-tag">Qiskit / IBM Quantum</span></div></div>
-            <div class="skill-category"><div class="skill-cat-label">Databases &amp; OS</div><div class="skill-tags"><span class="skill-tag featured">MongoDB</span><span class="skill-tag">SQL</span><span class="skill-tag">Ubuntu / Linux</span><span class="skill-tag">Windows</span></div></div>
-            <div class="skill-category"><div class="skill-cat-label">Design &amp; Other</div><div class="skill-tags"><span class="skill-tag">Figma</span><span class="skill-tag">Canva</span><span class="skill-tag">Video Editing</span><span class="skill-tag">OOP &amp; DSA</span></div></div>
+          <div class="skills-wrap">
+            <div class="skill-group">
+              <div class="skill-group-label">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                Languages &amp; Scripting
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag featured">Python</span>
+                <span class="skill-tag featured">Bash Scripting</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">HTML / CSS</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-label">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                Web &amp; Frameworks
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag featured">Django</span>
+                <span class="skill-tag featured">REST API</span>
+                <span class="skill-tag">PyQt5</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Bootstrap</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-label">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                DevOps &amp; Cloud
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag featured">Google Cloud</span>
+                <span class="skill-tag featured">Docker</span>
+                <span class="skill-tag featured">Ansible</span>
+                <span class="skill-tag">GitHub Actions</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-label">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Security &amp; Networking
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag featured">Wireshark</span>
+                <span class="skill-tag featured">MITMProxy</span>
+                <span class="skill-tag">Netmiko</span>
+                <span class="skill-tag">Post-Quantum Crypto</span>
+                <span class="skill-tag">Qiskit / IBM Quantum</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-label">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                Databases &amp; OS
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag featured">MongoDB</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Ubuntu / Linux</span>
+                <span class="skill-tag">Windows</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-label">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 012 2v7"/><line x1="6" y1="9" x2="6" y2="21"/></svg>
+                Design &amp; Other
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Canva</span>
+                <span class="skill-tag">Video Editing</span>
+                <span class="skill-tag">OOP &amp; DSA</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ==================== EXPERIENCE ==================== -->
+    <!-- ====================================================
+         EXPERIENCE
+         ==================================================== -->
     <section id="experience" class="section-reveal">
       <div class="section-header">
-        <div class="section-tag">02 // Work History</div>
-        <h2 class="section-title">Experience <span class="dim">&amp; Internships</span></h2>
+        <div class="section-tag">
+          <span class="tag-line"></span>
+          <span class="mono">02</span> Work History
+        </div>
+        <h2 class="section-title">Experience <span class="gradient-text">&amp; Internships</span></h2>
       </div>
+
       <div class="timeline">
-        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-period">June 2025 — Sept 2025</div><div class="timeline-card"><div class="timeline-role">Network Engineer Intern</div><div class="timeline-company">Tata Consultancy Services (TCS) · On-site · Chennai</div><div class="timeline-desc">Designed and developed a MITM Web Proxy Server using Python and PyQt5 to monitor LAN traffic and enhance network visibility. Implemented HTTP/HTTPS monitoring with admin controls to grant or revoke web permissions for N users. Built a custom analytics dashboard to visualize network usage data stored in MongoDB, streamlining security auditing.</div><div class="timeline-tags"><span class="timeline-tag">Python</span><span class="timeline-tag">PyQt5</span><span class="timeline-tag">MITMProxy</span><span class="timeline-tag">MongoDB</span><span class="timeline-tag">Network Security</span></div></div></div>
-        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-period">Aug 2024 — Sept 2024</div><div class="timeline-card"><div class="timeline-role">Intern &amp; Soft Skills Trainer</div><div class="timeline-company">Datanerdz.AI · Full-Time · Puducherry</div><div class="timeline-desc">Conducted training sessions for B.Sc. and MBA students, focusing on communication, leadership, teamwork, and problem-solving. Developed training materials and facilitated workshops that enhanced professional readiness for participants.</div><div class="timeline-tags"><span class="timeline-tag">Training</span><span class="timeline-tag">Leadership</span><span class="timeline-tag">AI</span></div></div></div>
-        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-period">June 2024 — July 2024</div><div class="timeline-card"><div class="timeline-role">Front-End Intern</div><div class="timeline-company">DuskCoders TechnoSoft Corp · Full-Time · Puducherry</div><div class="timeline-desc">Built dynamic, user-friendly, and responsive web interfaces with a focus on UI/UX enhancements. Strengthened expertise in HTML, CSS, JavaScript, and React while ensuring seamless user experiences across projects.</div><div class="timeline-tags"><span class="timeline-tag">React</span><span class="timeline-tag">JavaScript</span><span class="timeline-tag">UI/UX</span><span class="timeline-tag">CSS</span></div></div></div>
-        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-period">May 2024 — June 2024</div><div class="timeline-card"><div class="timeline-role">Cybersecurity Intern</div><div class="timeline-company">Prodigy InfoTech · Online</div><div class="timeline-desc">Gained hands-on experience in securing digital infrastructures and mitigating cyber threats. Deepened understanding of cybersecurity frameworks, best practices, and building robust security solutions.</div><div class="timeline-tags"><span class="timeline-tag">Cybersecurity</span><span class="timeline-tag">Threat Mitigation</span><span class="timeline-tag">Frameworks</span></div></div></div>
-        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-period">Nov 2023 — April 2024</div><div class="timeline-card"><div class="timeline-role">Back-End Developer &amp; Team Lead</div><div class="timeline-company">Hacker India · Full-Time · Puducherry</div><div class="timeline-desc">Architected scalable server-side solutions using Django and MongoDB. Oversaw database design, API development, and system optimization while leading a team to build high-performance applications.</div><div class="timeline-tags"><span class="timeline-tag">Django</span><span class="timeline-tag">MongoDB</span><span class="timeline-tag">REST API</span><span class="timeline-tag">Team Lead</span></div></div></div>
-        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-period">April 2024 — May 2024</div><div class="timeline-card"><div class="timeline-role">Cybersecurity Job Simulation</div><div class="timeline-company">TATA &amp; Forage · Online</div><div class="timeline-desc">Successfully completed the Cybersecurity Job Simulation offered by Forage in collaboration with TATA, gaining practical exposure to industry-standard cybersecurity practices and real-world scenarios.</div><div class="timeline-tags"><span class="timeline-tag">TATA</span><span class="timeline-tag">Cybersecurity</span><span class="timeline-tag">Industry Simulation</span></div></div></div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-date">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              June 2025 — Sept 2025
+            </div>
+            <div class="tl-card tilt-card">
+              <div class="tl-card-top">
+                <div class="tl-company-badge tcs">TCS</div>
+                <div class="tl-badge-type">On-site</div>
+              </div>
+              <div class="tl-role">Network Engineer Intern</div>
+              <div class="tl-company">Tata Consultancy Services · Chennai</div>
+              <p class="tl-desc">Designed a MITM Web Proxy Server using Python and PyQt5 to monitor LAN traffic and enhance network visibility. Implemented HTTP/HTTPS monitoring with admin controls and built a custom analytics dashboard with MongoDB for security auditing.</p>
+              <div class="tl-tags">
+                <span>Python</span><span>PyQt5</span><span>MITMProxy</span><span>MongoDB</span><span>Network Security</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-date">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Nov 2023 — April 2024
+            </div>
+            <div class="tl-card tilt-card">
+              <div class="tl-card-top">
+                <div class="tl-company-badge hi">HI</div>
+                <div class="tl-badge-type">Full-Time</div>
+              </div>
+              <div class="tl-role">Back-End Developer &amp; Team Lead</div>
+              <div class="tl-company">Hacker India · Puducherry</div>
+              <p class="tl-desc">Architected scalable server-side solutions using Django and MongoDB. Oversaw database design, API development, and system optimization while leading a team to build high-performance applications.</p>
+              <div class="tl-tags">
+                <span>Django</span><span>MongoDB</span><span>REST API</span><span>Team Lead</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-date">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              June 2024 — July 2024
+            </div>
+            <div class="tl-card tilt-card">
+              <div class="tl-card-top">
+                <div class="tl-company-badge dc">DC</div>
+                <div class="tl-badge-type">Full-Time</div>
+              </div>
+              <div class="tl-role">Front-End Intern</div>
+              <div class="tl-company">DuskCoders TechnoSoft Corp · Puducherry</div>
+              <p class="tl-desc">Built dynamic, responsive web interfaces with focus on UI/UX enhancements. Strengthened expertise in HTML, CSS, JavaScript, and React while ensuring seamless user experiences.</p>
+              <div class="tl-tags">
+                <span>React</span><span>JavaScript</span><span>UI/UX</span><span>CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-date">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Aug 2024 — Sept 2024
+            </div>
+            <div class="tl-card tilt-card">
+              <div class="tl-card-top">
+                <div class="tl-company-badge dn">DN</div>
+                <div class="tl-badge-type">Full-Time</div>
+              </div>
+              <div class="tl-role">Intern &amp; Soft Skills Trainer</div>
+              <div class="tl-company">Datanerdz.AI · Puducherry</div>
+              <p class="tl-desc">Conducted training sessions for B.Sc. and MBA students focusing on communication, leadership, teamwork, and problem-solving. Developed training materials and facilitated workshops enhancing professional readiness.</p>
+              <div class="tl-tags">
+                <span>Training</span><span>Leadership</span><span>AI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-date">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              May 2024 — June 2024
+            </div>
+            <div class="tl-card tilt-card">
+              <div class="tl-card-top">
+                <div class="tl-company-badge pi">PI</div>
+                <div class="tl-badge-type">Online</div>
+              </div>
+              <div class="tl-role">Cybersecurity Intern</div>
+              <div class="tl-company">Prodigy InfoTech · Remote</div>
+              <p class="tl-desc">Gained hands-on experience in securing digital infrastructures and mitigating cyber threats. Deepened understanding of cybersecurity frameworks, best practices, and building robust security solutions.</p>
+              <div class="tl-tags">
+                <span>Cybersecurity</span><span>Threat Mitigation</span><span>Frameworks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item last">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-date">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              April 2024 — May 2024
+            </div>
+            <div class="tl-card tilt-card">
+              <div class="tl-card-top">
+                <div class="tl-company-badge tata">TF</div>
+                <div class="tl-badge-type">Online</div>
+              </div>
+              <div class="tl-role">Cybersecurity Job Simulation</div>
+              <div class="tl-company">TATA &amp; Forage · Online</div>
+              <p class="tl-desc">Successfully completed the Cybersecurity Job Simulation offered by Forage in collaboration with TATA, gaining practical exposure to industry-standard cybersecurity practices and real-world scenarios.</p>
+              <div class="tl-tags">
+                <span>TATA</span><span>Cybersecurity</span><span>Industry Simulation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <!-- ==================== PROJECTS ==================== -->
+    <!-- ====================================================
+         PROJECTS
+         ==================================================== -->
     <section id="projects" class="section-reveal">
       <div class="section-header">
-        <div class="section-tag">03 // What I've Built</div>
-        <h2 class="section-title">Featured <span class="dim">Projects</span></h2>
+        <div class="section-tag">
+          <span class="tag-line"></span>
+          <span class="mono">03</span> What I've Built
+        </div>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
       </div>
+
       <div class="projects-grid">
-        <div class="project-card"><div class="project-img img-top"><img src="assets/img/masonry-portfolio/masonry-portfolio-3.png" alt="IDX Identity Extreme"></div><div class="project-body"><div class="project-type">Security / Desktop</div><div class="project-title">IDX — Identity Extreme</div><div class="project-desc">Secure login with face recognition, keylogging, and real-time monitoring. Anti-spoofing, email alerts with intruder images, and camera tampering detection.</div><div class="project-stack"><span>Python</span><span>OpenCV</span><span>Tkinter</span><span>Face Recognition</span></div><div class="project-links"><span class="project-link">View Project</span></div></div></div>
-        <div class="project-card"><div class="project-img img-top"><img src="assets/img/masonry-portfolio/masonry-portfolio-8.png" alt="Quantum Secure Chat"></div><div class="project-body"><div class="project-type">Quantum / Cryptography</div><div class="project-title">Quantum Secure Chat App</div><div class="project-desc">Client-server chat using BB84 QKD, IBM Quantum &amp; Qiskit, and AES/Fernet encryption for post-quantum secure messaging.</div><div class="project-stack"><span>Python</span><span>Qiskit</span><span>IBM Quantum</span><span>AES</span></div><div class="project-links"><a href="https://github.com/MerrilyToWin/Quantum-Computing-Projects/blob/main/Qiskit_Practice/Qiskit%20Projects/Quantum%20Key%20Distribution%20(QKD)%20and%20Secure%20Communication%20Using%20IBM%20Quantum%20and%20Fernet%20Encryption/main.py" target="_blank" class="project-link">GitHub ↗</a></div></div></div>
-        <div class="project-card"><div class="project-img img-center"><img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpeg" alt="Mini NAS"></div><div class="project-body"><div class="project-type">Hardware / Network</div><div class="project-title">Mini NAS — Network Storage</div><div class="project-desc">Raspberry Pi 3 NAS with Debian Linux &amp; Samba, up to 5TB storage. Secure file sharing over FTP/TCP with encryption and media streaming.</div><div class="project-stack"><span>Raspberry Pi</span><span>Debian</span><span>Samba</span><span>FTP/TCP</span></div><div class="project-links"><span class="project-link">Hardware Build</span></div></div></div>
-        <div class="project-card"><div class="project-img img-center"><img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpeg" alt="Ultrasonic Surveillancer"></div><div class="project-body"><div class="project-type">Hardware / IoT</div><div class="project-title">Ultrasonic Surveillancer</div><div class="project-desc">Home security camera using ultrasonic wave detection within 200m. Real-time monitoring and enhanced intrusion detection triggered by sound-based movement.</div><div class="project-stack"><span>ESP32</span><span>Ultrasonic</span><span>IoT</span><span>Security</span></div><div class="project-links"><a href="https://github.com/MerrilyToWin/Ultrasonic-security-camera" target="_blank" class="project-link">GitHub ↗</a></div></div></div>
-        <div class="project-card"><div class="project-img img-center"><img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpeg" alt="Surveillance Robot Car"></div><div class="project-body"><div class="project-type">Hardware / IoT</div><div class="project-title">Surveillance Robot Car</div><div class="project-desc">ESP32-based robot car with live camera streaming over the internet. Recordings securely stored on Google Cloud for remote monitoring from anywhere.</div><div class="project-stack"><span>ESP32</span><span>Google Cloud</span><span>Live Stream</span><span>IoT</span></div><div class="project-links"><span class="project-link">IoT Build</span></div></div></div>
-        <div class="project-card"><div class="project-img img-center"><img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpeg" alt="Self Destruction Drone"></div><div class="project-body"><div class="project-type">Hardware / Defence</div><div class="project-title">SDD — Self Destruction Drone</div><div class="project-desc">Proof-of-concept for a military-grade compact drone with the payload power of a hand grenade, designed for long-range neutralization within secured areas.</div><div class="project-stack"><span>Drone</span><span>Defence</span><span>Prototype</span><span>Hardware</span></div><div class="project-links"><span class="project-link">Proof of Concept</span></div></div></div>
-        <div class="project-card"><div class="project-img img-center"><img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpeg" alt="SAR Rocket Agni Sakthi"></div><div class="project-body"><div class="project-type">Hardware / Aerospace</div><div class="project-title">SAR-1 Rocket — Agni Sakthi</div><div class="project-desc">Step-One rocket for mini-satellite launches. Reached 1,500m altitude with minimal fuel. Launched on the historic Chandrayaan-3 Moon landing day.</div><div class="project-stack"><span>Propulsion</span><span>Aerospace</span><span>Hardware</span><span>Prototype</span></div><div class="project-links"><span class="project-link">Research Build</span></div></div></div>
-        <div class="project-card"><div class="project-img img-top"><img src="assets/img/masonry-portfolio/masonry-portfolio-7.png" alt="UI/UX Design"></div><div class="project-body"><div class="project-type">Design / UI·UX</div><div class="project-title">UI/UX Design Portfolio</div><div class="project-desc">10+ websites, 15+ mobile app interfaces, and 20+ posters crafted in Figma. Focused on delivering engaging, intuitive experiences that enhance brand identity.</div><div class="project-stack"><span>Figma</span><span>Canva</span><span>UI/UX</span><span>Prototyping</span></div><div class="project-links"><a href="https://www.figma.com/files/team/1300867703303934816/recents-and-sharing" target="_blank" class="project-link">Figma ↗</a></div></div></div>
-        <div class="project-card"><div class="project-img img-top"><img src="assets/img/masonry-portfolio/masonry-portfolio-9.png" alt="Dine Decors Website"></div><div class="project-body"><div class="project-type">Freelance / Web</div><div class="project-title">Dine Decors Website</div><div class="project-desc">Full-cycle website for a renowned Puducherry event management company — from Figma design through development, testing, and live deployment.</div><div class="project-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span></div><div class="project-links"><a href="https://dinedecors.github.io/_/" target="_blank" class="project-link">Live ↗</a></div></div></div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-top">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-3.png" alt="IDX Identity Extreme">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Security · Desktop</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">IDX — Identity Extreme</h3>
+            <p class="project-desc">Secure login with face recognition, keylogging, and real-time monitoring. Anti-spoofing, email alerts with intruder images, and camera tampering detection.</p>
+            <div class="project-stack">
+              <span>Python</span><span>OpenCV</span><span>Tkinter</span><span>Face Recognition</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-link-btn">View Project
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-top">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-8.png" alt="Quantum Secure Chat">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Quantum · Cryptography</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Quantum Secure Chat App</h3>
+            <p class="project-desc">Client-server chat using BB84 QKD, IBM Quantum &amp; Qiskit, and AES/Fernet encryption for post-quantum secure messaging.</p>
+            <div class="project-stack">
+              <span>Python</span><span>Qiskit</span><span>IBM Quantum</span><span>AES</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/MerrilyToWin/Quantum-Computing-Projects/blob/main/Qiskit_Practice/Qiskit%20Projects/Quantum%20Key%20Distribution%20(QKD)%20and%20Secure%20Communication%20Using%20IBM%20Quantum%20and%20Fernet%20Encryption/main.py" target="_blank" class="project-link-btn">
+                GitHub
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-center">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpeg" alt="Mini NAS">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Hardware · Network</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Mini NAS — Network Storage</h3>
+            <p class="project-desc">Raspberry Pi 3 NAS with Debian Linux &amp; Samba, up to 5TB storage. Secure file sharing over FTP/TCP with encryption and media streaming.</p>
+            <div class="project-stack">
+              <span>Raspberry Pi</span><span>Debian</span><span>Samba</span><span>FTP/TCP</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-link-btn">Hardware Build
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-center">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpeg" alt="Ultrasonic Surveillancer">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Hardware · IoT</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Ultrasonic Surveillancer</h3>
+            <p class="project-desc">Home security camera using ultrasonic wave detection within 200m. Real-time monitoring and enhanced intrusion detection triggered by sound-based movement.</p>
+            <div class="project-stack">
+              <span>ESP32</span><span>Ultrasonic</span><span>IoT</span><span>Security</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/MerrilyToWin/Ultrasonic-security-camera" target="_blank" class="project-link-btn">
+                GitHub
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-center">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpeg" alt="Surveillance Robot Car">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Hardware · IoT</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Surveillance Robot Car</h3>
+            <p class="project-desc">ESP32-based robot car with live camera streaming over the internet. Recordings securely stored on Google Cloud for remote monitoring from anywhere.</p>
+            <div class="project-stack">
+              <span>ESP32</span><span>Google Cloud</span><span>Live Stream</span><span>IoT</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-link-btn">IoT Build
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-center">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpeg" alt="SAR Rocket">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Hardware · Aerospace</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">SAR-1 Rocket — Agni Sakthi</h3>
+            <p class="project-desc">Step-One rocket for mini-satellite launches. Reached 1,500m altitude with minimal fuel. Launched on the historic Chandrayaan-3 Moon landing day.</p>
+            <div class="project-stack">
+              <span>Propulsion</span><span>Aerospace</span><span>Hardware</span><span>Prototype</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-link-btn">Research Build
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-top">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-7.png" alt="UI/UX Design">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Design · UI/UX</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">UI/UX Design Portfolio</h3>
+            <p class="project-desc">10+ websites, 15+ mobile app interfaces, and 20+ posters crafted in Figma. Focused on delivering engaging, intuitive experiences that enhance brand identity.</p>
+            <div class="project-stack">
+              <span>Figma</span><span>Canva</span><span>UI/UX</span><span>Prototyping</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://www.figma.com/files/team/1300867703303934816/recents-and-sharing" target="_blank" class="project-link-btn">
+                Figma
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-top">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-9.png" alt="Dine Decors">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Freelance · Web</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Dine Decors Website</h3>
+            <p class="project-desc">Full-cycle website for a renowned Puducherry event management company — from Figma design through development, testing, and live deployment.</p>
+            <div class="project-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://dinedecors.github.io/_/" target="_blank" class="project-link-btn">
+                Live Site
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card tilt-card">
+          <div class="project-img img-center">
+            <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpeg" alt="Self Destruction Drone">
+            <div class="project-img-overlay">
+              <span class="project-category-badge">Hardware · Defence</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">SDD — Self Destruction Drone</h3>
+            <p class="project-desc">Proof-of-concept for a military-grade compact drone with the payload power of a hand grenade, designed for long-range neutralization within secured areas.</p>
+            <div class="project-stack">
+              <span>Drone</span><span>Defence</span><span>Prototype</span><span>Hardware</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-link-btn">Proof of Concept
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <!-- ==================== ACHIEVEMENTS ==================== -->
+    <!-- ====================================================
+         ACHIEVEMENTS
+         ==================================================== -->
     <section id="achievements" class="section-reveal">
       <div class="section-header">
-        <div class="section-tag">04 // Recognition</div>
-        <h2 class="section-title">Awards <span class="dim">&amp; Achievements</span></h2>
+        <div class="section-tag">
+          <span class="tag-line"></span>
+          <span class="mono">04</span> Recognition
+        </div>
+        <h2 class="section-title">Awards <span class="gradient-text">&amp; Achievements</span></h2>
       </div>
+
       <div class="achievements-grid">
-        <div class="achievement-card"><div class="achievement-emoji">🥇</div><div class="achievement-body"><div class="achievement-badge">Research Excellence</div><div class="achievement-title">1st Prize — SCIMIT '25</div><div class="achievement-desc">Secured 1st Prize at SCIMIT '25 presenting the "Leg Disability Automation Assistance" medical research project with Team ARISE.</div></div></div>
-        <div class="achievement-card"><div class="achievement-emoji">🥈</div><div class="achievement-body"><div class="achievement-badge">Research Excellence</div><div class="achievement-title">2nd Prize — TechXplore '25</div><div class="achievement-desc">2nd Prize at TechXplore '25 for the same medical research project, competing against teams from multiple institutions.</div></div></div>
-        <div class="achievement-card"><div class="achievement-emoji">🏅</div><div class="achievement-body"><div class="achievement-badge">Research Excellence</div><div class="achievement-title">Dr. Kalam Award — Anna University</div><div class="achievement-desc">Honored with the Dr. Kalam Award at Anna University for the "Leg Disability Automation Assistance" project alongside Team ARISE.</div></div></div>
-        <div class="achievement-card"><div class="achievement-emoji">🥈</div><div class="achievement-body"><div class="achievement-badge">Hackathon</div><div class="achievement-title">2nd Prize — Castilo '25 Hackathon</div><div class="achievement-desc">Team ARISE achieved 2nd Prize in the Castilo '25 Hackathon, competing in a fast-paced technical build challenge.</div></div></div>
-        <div class="achievement-card"><div class="achievement-emoji">💻</div><div class="achievement-body"><div class="achievement-badge">Coding</div><div class="achievement-title">1st &amp; 2nd Prize — Code Clash '24 &amp; '25</div><div class="achievement-desc">Won 1st Prize in Code Clash '24 and 2nd Prize in Code Clash '25, both hosted by Ocean Academy.</div></div></div>
-        <div class="achievement-card"><div class="achievement-emoji">🎓</div><div class="achievement-body"><div class="achievement-badge">Academic</div><div class="achievement-title">College Achievers Award — MVIT</div><div class="achievement-desc">Selected among the TOP 4 students college-wide from 3rd &amp; 4th year across all departments for outstanding academic performance and leadership.</div></div></div>
-        <div class="achievement-card"><div class="achievement-emoji">🥉</div><div class="achievement-body"><div class="achievement-badge">Research Excellence</div><div class="achievement-title">3rd Prize — GenNext Vision '25</div><div class="achievement-desc">3rd Prize at GenNext Vision '25 competition, continuing the winning streak for the Team ARISE medical research project.</div></div></div>
-        <div class="achievement-card"><div class="achievement-emoji">🔍</div><div class="achievement-body"><div class="achievement-badge">Research</div><div class="achievement-title">Published Research Papers</div><div class="achievement-desc">Published at IC-SCAN (Deforestation &amp; SDG 15, Dec 2024) and ICIEMS (Big Data Privacy &amp; Security, Jan 2025), Puducherry.</div></div></div>
+
+        <div class="achievement-card tilt-card">
+          <div class="ach-icon-wrap gold">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="ach-body">
+            <div class="ach-badge">Research Excellence</div>
+            <div class="ach-title">1st Prize — SCIMIT '25</div>
+            <p class="ach-desc">Secured 1st Prize at SCIMIT '25 presenting the "Leg Disability Automation Assistance" medical research project with Team ARISE.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card tilt-card">
+          <div class="ach-icon-wrap silver">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="ach-body">
+            <div class="ach-badge">Research Excellence</div>
+            <div class="ach-title">2nd Prize — TechXplore '25</div>
+            <p class="ach-desc">2nd Prize at TechXplore '25 for the same medical research project, competing against teams from multiple institutions.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card tilt-card">
+          <div class="ach-icon-wrap blue">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 15l-2 5L8 8l14 4-5-2z"/><path d="M12 15l2 5"/></svg>
+          </div>
+          <div class="ach-body">
+            <div class="ach-badge">Research Excellence</div>
+            <div class="ach-title">Dr. Kalam Award — Anna University</div>
+            <p class="ach-desc">Honored with the Dr. Kalam Award at Anna University for the "Leg Disability Automation Assistance" project alongside Team ARISE.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card tilt-card">
+          <div class="ach-icon-wrap purple">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <div class="ach-body">
+            <div class="ach-badge">Hackathon</div>
+            <div class="ach-title">2nd Prize — Castilo '25 Hackathon</div>
+            <p class="ach-desc">Team ARISE achieved 2nd Prize in the Castilo '25 Hackathon, competing in a fast-paced technical build challenge.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card tilt-card">
+          <div class="ach-icon-wrap green">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div class="ach-body">
+            <div class="ach-badge">Coding</div>
+            <div class="ach-title">1st &amp; 2nd — Code Clash '24 &amp; '25</div>
+            <p class="ach-desc">Won 1st Prize in Code Clash '24 and 2nd Prize in Code Clash '25, both hosted by Ocean Academy.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card tilt-card">
+          <div class="ach-icon-wrap gold">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="ach-body">
+            <div class="ach-badge">Academic</div>
+            <div class="ach-title">College Achievers Award — MVIT</div>
+            <p class="ach-desc">Selected among the TOP 4 students college-wide from 3rd &amp; 4th year across all departments for outstanding performance and leadership.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card tilt-card">
+          <div class="ach-icon-wrap silver">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="ach-body">
+            <div class="ach-badge">Research Excellence</div>
+            <div class="ach-title">3rd Prize — GenNext Vision '25</div>
+            <p class="ach-desc">3rd Prize at GenNext Vision '25 competition, continuing the winning streak for the Team ARISE medical research project.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card tilt-card">
+          <div class="ach-icon-wrap blue">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <div class="ach-body">
+            <div class="ach-badge">Research</div>
+            <div class="ach-title">Published Research Papers</div>
+            <p class="ach-desc">Published at IC-SCAN (Deforestation &amp; SDG 15, Dec 2024) and ICIEMS (Big Data Privacy &amp; Security, Jan 2025), Puducherry.</p>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <!-- ==================== EDUCATION ==================== -->
+    <!-- ====================================================
+         EDUCATION
+         ==================================================== -->
     <section id="education" class="section-reveal">
       <div class="section-header">
-        <div class="section-tag">05 // Academic Background</div>
-        <h2 class="section-title">Education <span class="dim">&amp; Research</span></h2>
+        <div class="section-tag">
+          <span class="tag-line"></span>
+          <span class="mono">05</span> Academic Background
+        </div>
+        <h2 class="section-title">Education <span class="gradient-text">&amp; Research</span></h2>
       </div>
+
+      <!-- Degrees -->
       <div class="edu-grid">
-        <div class="edu-card"><div class="edu-degree">B.Tech — Information Technology</div><div class="edu-school">Manakula Vinayagar Institute of Technology (MVIT)</div><div class="edu-location">Madagadipet, Kanakapura, Puducherry — 605 107</div><div class="edu-year">2022 — 2026</div><div class="edu-desc">Comprehensive knowledge in programming, networking, system analysis, and cybersecurity. Building a strong foundation for a career in DevSecOps and cloud computing.</div><div class="edu-cgpa">★ CGPA: 8.13</div></div>
-        <div class="edu-card"><div class="edu-degree">Higher Secondary (12th)</div><div class="edu-school">AVM Rajeswari Higher Secondary School</div><div class="edu-location">Virugambakkam, Chennai — 600 092, Tamil Nadu</div><div class="edu-year">2021 — 2022</div><div class="edu-desc">Completed higher secondary education in the Bio-Mathematics group, demonstrating proficiency in both biological sciences and mathematics.</div></div>
-      </div>
-      <div style="margin-top:56px">
-        <div class="section-tag" style="margin-bottom:24px">Research Publications</div>
-        <div class="research-grid">
-          <div class="research-card"><div class="research-venue">IC-SCAN · December 2024</div><div class="research-title">Deforestation and Forest Management Practices in Achieving SDG 15: Challenges and Opportunities</div><div class="research-desc">Explores deforestation's impact on biodiversity and climate. Solutions include tech-driven monitoring, financial incentives, and stronger regulations to achieve SDG 15.</div></div>
-          <div class="research-card"><div class="research-venue">ICIEMS · January 2025</div><div class="research-title">Big Data Privacy and Security in Data Analytics: A Review on Issues, Challenges and Privacy Preserving Methods</div><div class="research-desc">Explores CSA-identified risks, K-Anonymity, and industry-leading security measures to address the 5V challenges (Volume, Variety, Velocity, Value, Veracity).</div></div>
+        <div class="edu-card tilt-card">
+          <div class="edu-card-accent"></div>
+          <div class="edu-icon">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="edu-year-badge">2022 — 2026</div>
+          <div class="edu-degree">B.Tech — Information Technology</div>
+          <div class="edu-school">Manakula Vinayagar Institute of Technology</div>
+          <div class="edu-location">Madagadipet, Puducherry — 605 107</div>
+          <p class="edu-desc">Comprehensive knowledge in programming, networking, system analysis, and cybersecurity. Building a strong foundation for a career in DevSecOps and cloud computing.</p>
+          <div class="edu-cgpa">
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            CGPA: 8.13
+          </div>
+        </div>
+
+        <div class="edu-card tilt-card">
+          <div class="edu-card-accent"></div>
+          <div class="edu-icon">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="edu-year-badge">2021 — 2022</div>
+          <div class="edu-degree">Higher Secondary (12th)</div>
+          <div class="edu-school">AVM Rajeswari Higher Secondary School</div>
+          <div class="edu-location">Virugambakkam, Chennai — 600 092</div>
+          <p class="edu-desc">Completed higher secondary education in the Bio-Mathematics group, demonstrating proficiency in both biological sciences and mathematics.</p>
         </div>
       </div>
-      <div style="margin-top:56px">
-        <div class="section-tag" style="margin-bottom:24px">Certifications</div>
-        <div class="certs-grid">
-          <div class="cert-card"><div class="cert-issuer">Microsoft</div><div class="cert-name">Security, Compliance &amp; Identity Fundamentals (SC-900)</div></div>
-          <div class="cert-card"><div class="cert-issuer">Fortinet</div><div class="cert-name">Network Security Associate — NSE 1</div></div>
-          <div class="cert-card"><div class="cert-issuer">Cisco</div><div class="cert-name">Introduction to Cybersecurity &amp; Networking Basics</div></div>
-          <div class="cert-card"><div class="cert-issuer">Ocean Academy / Udemy</div><div class="cert-name">Python Full-Stack with MongoDB &amp; 100 Days of Code</div></div>
-          <div class="cert-card"><div class="cert-issuer">Google Cloud</div><div class="cert-name">Google Cloud Digital Leader</div></div>
-          <div class="cert-card"><div class="cert-issuer">LinkedIn Learning</div><div class="cert-name">DevOps: NetOps Foundations, Docker, GitHub Actions</div></div>
+
+      <!-- Research Publications -->
+      <div class="sub-section">
+        <div class="sub-section-header">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Research Publications
+        </div>
+        <div class="research-grid">
+          <div class="research-card tilt-card">
+            <div class="research-venue">
+              <span class="venue-dot"></span>
+              IC-SCAN · December 2024
+            </div>
+            <div class="research-title">Deforestation and Forest Management Practices in Achieving SDG 15: Challenges and Opportunities</div>
+            <p class="research-desc">Explores deforestation's impact on biodiversity and climate. Solutions include tech-driven monitoring, financial incentives, and stronger regulations to achieve SDG 15.</p>
+            <div class="research-tags"><span>Environment</span><span>SDG 15</span><span>Policy</span></div>
+          </div>
+          <div class="research-card tilt-card">
+            <div class="research-venue">
+              <span class="venue-dot"></span>
+              ICIEMS · January 2025
+            </div>
+            <div class="research-title">Big Data Privacy and Security in Data Analytics: A Review on Issues, Challenges and Privacy Preserving Methods</div>
+            <p class="research-desc">Explores CSA-identified risks, K-Anonymity, and industry-leading security measures to address the 5V challenges (Volume, Variety, Velocity, Value, Veracity).</p>
+            <div class="research-tags"><span>Big Data</span><span>Security</span><span>Privacy</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="sub-section">
+        <div class="sub-section-header">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          Certifications &amp; Courses
+        </div>
+        <div class="courses-grid">
+
+          <div class="course-card tilt-card">
+            <div class="course-header">
+              <div class="course-issuer-box ms">MS</div>
+              <div class="course-verified">
+                <svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </div>
+            </div>
+            <div class="course-name">Security, Compliance &amp; Identity Fundamentals</div>
+            <div class="course-code">SC-900 Certification</div>
+            <div class="course-issuer-name">Microsoft</div>
+            <div class="course-skills"><span>Azure AD</span><span>Compliance</span><span>Security</span></div>
+          </div>
+
+          <div class="course-card tilt-card">
+            <div class="course-header">
+              <div class="course-issuer-box ft">FT</div>
+              <div class="course-verified">
+                <svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </div>
+            </div>
+            <div class="course-name">Network Security Associate</div>
+            <div class="course-code">NSE 1 Certification</div>
+            <div class="course-issuer-name">Fortinet</div>
+            <div class="course-skills"><span>Network Security</span><span>Threat Intel</span></div>
+          </div>
+
+          <div class="course-card tilt-card">
+            <div class="course-header">
+              <div class="course-issuer-box cs">CS</div>
+              <div class="course-verified">
+                <svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </div>
+            </div>
+            <div class="course-name">Cybersecurity &amp; Networking Basics</div>
+            <div class="course-code">Introduction Track</div>
+            <div class="course-issuer-name">Cisco</div>
+            <div class="course-skills"><span>Networking</span><span>Cybersecurity</span></div>
+          </div>
+
+          <div class="course-card tilt-card">
+            <div class="course-header">
+              <div class="course-issuer-box py">PY</div>
+              <div class="course-verified">
+                <svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </div>
+            </div>
+            <div class="course-name">Python Full-Stack with MongoDB</div>
+            <div class="course-code">100 Days of Code</div>
+            <div class="course-issuer-name">Ocean Academy / Udemy</div>
+            <div class="course-skills"><span>Python</span><span>MongoDB</span><span>Full-Stack</span></div>
+          </div>
+
+          <div class="course-card tilt-card">
+            <div class="course-header">
+              <div class="course-issuer-box gc">GC</div>
+              <div class="course-verified">
+                <svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </div>
+            </div>
+            <div class="course-name">Google Cloud Digital Leader</div>
+            <div class="course-code">Cloud Certification</div>
+            <div class="course-issuer-name">Google Cloud</div>
+            <div class="course-skills"><span>GCP</span><span>Cloud Arch</span><span>BigQuery</span></div>
+          </div>
+
+          <div class="course-card tilt-card">
+            <div class="course-header">
+              <div class="course-issuer-box li">Li</div>
+              <div class="course-verified">
+                <svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </div>
+            </div>
+            <div class="course-name">DevOps: NetOps, Docker &amp; GitHub Actions</div>
+            <div class="course-code">Professional Track</div>
+            <div class="course-issuer-name">LinkedIn Learning</div>
+            <div class="course-skills"><span>Docker</span><span>CI/CD</span><span>DevOps</span></div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- ==================== CONTACT ==================== -->
+    <!-- ====================================================
+         CONTACT
+         ==================================================== -->
     <section id="contact" class="section-reveal">
       <div class="section-header">
-        <div class="section-tag">06 // Let's Connect</div>
-        <h2 class="section-title">Get In <span class="dim">Touch</span></h2>
+        <div class="section-tag">
+          <span class="tag-line"></span>
+          <span class="mono">06</span> Let's Connect
+        </div>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
       </div>
+
       <div class="contact-grid">
         <div class="contact-info">
-          <p class="contact-desc">Whether it's a project, freelance collaboration, research discussion, or just a tech chat — I'm always open to connecting and building something amazing together. 🚀</p>
+          <p class="contact-desc">Whether it's a project, freelance collaboration, research discussion, or just a tech chat — I'm always open to connecting and building something amazing together.</p>
+
           <div class="contact-items">
-            <a href="mailto:merwinofficial24@gmail.com" class="contact-item"><div class="contact-item-icon">✉️</div><div class="contact-item-text"><div class="contact-item-label">Email</div>merwinofficial24@gmail.com</div></a>
-            <a href="tel:+918072937416" class="contact-item"><div class="contact-item-icon">📱</div><div class="contact-item-text"><div class="contact-item-label">Phone</div>+91 80729 37416</div></a>
-            <a href="https://merrilytowin.github.io/arise/" target="_blank" class="contact-item"><div class="contact-item-icon">⚡</div><div class="contact-item-text"><div class="contact-item-label">Team ARISE</div>merrilytowin.github.io/arise</div></a>
-            <div class="contact-item"><div class="contact-item-icon">📍</div><div class="contact-item-text"><div class="contact-item-label">Location</div>Saram, Puducherry, India</div></div>
+            <a href="mailto:merwinofficial24@gmail.com" class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-value">merwinofficial24@gmail.com</div>
+              </div>
+            </a>
+            <a href="tel:+918072937416" class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.9 14.1 19.79 19.79 0 011.83 5.54 2 2 0 013.81 3.35h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 10.9a16 16 0 006.29 6.29l1.62-1.62a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 17.92z"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-label">Phone</div>
+                <div class="contact-item-value">+91 80729 37416</div>
+              </div>
+            </a>
+            <a href="https://merrilytowin.github.io/arise/" target="_blank" class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-label">Team ARISE</div>
+                <div class="contact-item-value">merrilytowin.github.io/arise</div>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-label">Location</div>
+                <div class="contact-item-value">Saram, Puducherry, India</div>
+              </div>
+            </div>
           </div>
-          <div class="social-links-contact">
-            <a href="https://github.com/MerrilyToWin" target="_blank" class="social-link-contact" aria-label="GitHub"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
-            <a href="https://www.linkedin.com/in/merwin-j/" target="_blank" class="social-link-contact" aria-label="LinkedIn"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
-            <a href="https://twitter.com/merrily_to_win" target="_blank" class="social-link-contact" aria-label="Twitter/X"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
-            <a href="https://www.instagram.com/hub_4dev/" target="_blank" class="social-link-contact" aria-label="Instagram"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+
+          <div class="contact-socials">
+            <a href="https://github.com/MerrilyToWin" target="_blank" class="social-btn" aria-label="GitHub">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.79-.26.79-.58v-2.23c-3.34.73-4.03-1.42-4.03-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.05.14 3 .4 2.28-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.19.69.8.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/merwin-j/" target="_blank" class="social-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.77C14.4 7.41 20 7.22 20 12.48V19z"/></svg>
+            </a>
+            <a href="https://twitter.com/merrily_to_win" target="_blank" class="social-btn" aria-label="Twitter/X">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/hub_4dev/" target="_blank" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
           </div>
         </div>
-        <div class="contact-form">
+
+        <div class="contact-form-wrap">
           <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
             <input type="hidden" name="access_key" value="35996e68-2628-4380-aeb5-8525bcebf205">
-            <div class="form-group"><label class="form-label">Name</label><input type="text" name="name" class="form-input" placeholder="Your full name" required></div>
-            <div class="form-group"><label class="form-label">Email</label><input type="email" name="email" class="form-input" placeholder="your@email.com" required></div>
-            <div class="form-group"><label class="form-label">Subject</label><input type="text" name="subject" class="form-input" placeholder="What's this about?" required></div>
-            <div class="form-group"><label class="form-label">Message</label><textarea name="message" class="form-textarea" placeholder="Tell me about your project..." required></textarea></div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Name</label>
+                <input type="text" name="name" class="form-input" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" name="email" class="form-input" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Subject</label>
+              <input type="text" name="subject" class="form-input" placeholder="What's this about?" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea name="message" class="form-textarea" placeholder="Tell me about your project..." required></textarea>
+            </div>
             <button type="submit" class="btn-primary btn-full" id="submitBtn">
-              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
               <span>Send Message</span>
             </button>
           </form>
@@ -317,8 +1066,15 @@
 
   <footer>
     <div class="footer-inner">
-      <div class="footer-name">Merwin J</div>
-      <div class="footer-tagline">Building secure digital futures — one commit at a time.</div>
+      <div class="footer-brand">
+        <span class="footer-logo">MJ</span>
+        <span class="footer-tagline">Building secure digital futures — one commit at a time.</span>
+      </div>
+      <div class="footer-links">
+        <a href="#about" data-scroll>About</a>
+        <a href="#projects" data-scroll>Projects</a>
+        <a href="#contact" data-scroll>Contact</a>
+      </div>
       <div class="footer-copy">&copy; 2025 Merwin J. All rights reserved.</div>
     </div>
   </footer>
